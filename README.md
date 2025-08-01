@@ -12,19 +12,29 @@ This project demonstrates the **end-to-end Machine Learning process** for image 
 - Cloud deployment and performance simulation with Locust
 
 ###  Directory Structure
-ml_pipeline_project/
-├── README.md
-├── notebook/
-│ └── ml_pipeline.ipynb
-├── src/
-│ ├── preprocessing.py
-│ ├── model.py
-│ └── prediction.py
+summative-assignment-mlops/
+│
 ├── data/
-│ ├── train/
-│ └── test/
+│   ├── raw/
+│   └── processed/
+│
 ├── models/
-│ └── model_name.h5
+│
+├── notebooks/
+│   └── 01_model_training.ipynb
+│
+├── scripts/
+│   ├── preprocess.py
+│   ├── train.py
+│   └── evaluate.py
+│
+├── streamlit_app/
+│   └── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 
 
 ###  Features
